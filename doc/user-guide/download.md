@@ -41,6 +41,12 @@ cpanm LWP
 mv path-to-annovar/annovar/ ./bin/
 ```
 
+Note that if you have already installed ANNOVAR, please make a soft link of your annovar installed path to an annovar directory in icages bin
+
+```
+ln -s path-to-annovar/annovar ./bin/annovar
+```
+
 - Install the second dependency for iCAGES, DGIdb. If your current directory is icages-0.1, then please create a directory under ./bin directory and name it DGIdb.Please visit [DGIdb](http://dgidb.genome.wustl.edu/) to read about it and download download the corresponding perl script from [here](wget https://raw.github.com/genome/dgi-db/master/files/perl_example.pl) to ./bin/DGIdb directory
 
 ```
